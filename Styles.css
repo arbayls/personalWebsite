@@ -1,0 +1,54 @@
+body {
+  font-family: Courier, Cursive;
+  font-size: 1em;
+  background-color: #e9e0d6;
+}
+h1 {
+  font-family: Courier, Cursive;
+  color: #ff6c3a;
+  text-align: center;
+  font-size: 100px;
+  margin: 0 auto;
+}
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: #29aba4;
+  text-align: center;
+}
+.header h1 {
+  color: #324154;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 27%;
+}
+.headshot {
+  height: 250px;
+  width: 325px;
+  border: 1px solid #4682b4;
+  transform: rotateZ( 90deg );
+  float: left;
+}
+.headshot img {
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+}
+.bullets {
+  font-family: Courier, Cursive;
+  color: #324154;
+  font-size: 20px;
+  margin: 0 auto;
+  float: right;
+  width: 75%;
+}
+.bullets ul li {
+  line-height: 50px;
+}
+/*color palette source: "http://www.dtelepathy.com/blog/inspiration/beautiful-color-palettes-for-your-next-web-project"*/
+/*the dark blue is #324154*/
+/*the teal is #29aba4*/
+/*the rose is #eb7260*/
+/*the fawn is #e9e0d6*/
+/*the cerulean is #3a9ad9*/
