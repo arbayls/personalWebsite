@@ -1,17 +1,20 @@
 body {
-  font-family: Courier, Cursive;
+  font-family: Anonymous Pro, Courier;
   font-size: 1em;
   background-color: #e9e0d6;
 }
 h1 {
-  font-family: Courier, Cursive;
-  color: #ff6c3a;
+  font-family: Cedarville Cursive, Courier;
+  color: #324154;
   text-align: center;
-  font-size: 100px;
+  font-size: 175px;
   margin: 0 auto;
 }
+#name {
+  font-size: 195px;
+}
 .header {
-  height: 200px;
+  height: 175px;
   width: 100%;
   background-color: #29aba4;
   text-align: center;
@@ -20,13 +23,14 @@ h1 {
   color: #324154;
   display: block;
   position: absolute;
-  top: 50px;
-  left: 27%;
+  left: 17%;
+  margin-top: -75px;
+  z-index:1;
 }
 .headshot {
   height: 250px;
   width: 325px;
-  border: 1px solid #4682b4;
+  border: 10px solid #29aba4;
   transform: rotateZ( 90deg );
   float: left;
 }
@@ -34,17 +38,26 @@ h1 {
   width: 100%;
   height: inherit;
   overflow: hidden;
+  border-left: 30px solid;
+  border-color: #29aba4;
 }
 .bullets {
-  font-family: Courier, Cursive;
+  font-family: Anonymous Pro, Courier;
   color: #324154;
   font-size: 20px;
   margin: 0 auto;
   float: right;
-  width: 75%;
+  width: 73%;
 }
 .bullets ul li {
   line-height: 50px;
+}
+a {
+  text-decoration: none;
+  color: #eb7260;
+}
+a:hover {
+    color: #29aba4;
 }
 /*color palette source: "http://www.dtelepathy.com/blog/inspiration/beautiful-color-palettes-for-your-next-web-project"*/
 /*the dark blue is #324154*/
