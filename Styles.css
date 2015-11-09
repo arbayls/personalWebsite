@@ -5,7 +5,7 @@ body {
 }
 h1 {
   font-family: Cedarville Cursive, Courier;
-  color: #324154;
+  color: #464442;
   text-align: center;
   font-size: 175px;
   margin: 0 auto;
@@ -16,52 +16,86 @@ h1 {
 .header {
   height: 175px;
   width: 100%;
-  background-color: #29aba4;
+  background-color: #9d9791;
   text-align: center;
 }
 .header h1 {
-  color: #324154;
+  color: #464442;
   display: block;
   position: absolute;
   left: 17%;
   margin-top: -75px;
   z-index:1;
 }
+.Button {
+  display: inline-block;
+  font-family: Cedarville Cursive, Courier;
+  color: #9d9791;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.buttonWrapper {
+  margin-top: 175px;
+  margin-right: 30px;
+  float:right;
+  background-color: #3d718d;
+
+}
 .headshot {
-  height: 250px;
-  width: 325px;
+  height: 325px;
+  width: 260px;
   border: 10px solid #29aba4;
-  transform: rotateZ( 90deg );
   float: left;
+  margin-top: -30px;
+  margin-left: 40px;
 }
 .headshot img {
   width: 100%;
   height: inherit;
   overflow: hidden;
-  border-left: 30px solid;
   border-color: #29aba4;
+}
+h2 {
+  font-family: Anonymous Pro, Courier;
+  color: #464442;
+  text-align: left;
+  font-size: 35px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 510px;
+  line-height: 20px;
 }
 .bullets {
   font-family: Anonymous Pro, Courier;
-  color: #324154;
+  color: #464442;
   font-size: 20px;
   margin: 0 auto;
   float: right;
   width: 73%;
 }
 .bullets ul li {
-  line-height: 50px;
+  line-height: 40px;
 }
 a {
   text-decoration: none;
-  color: #eb7260;
+  color: #3d718d;
 }
 a:hover {
     color: #29aba4;
 }
-/*color palette source: "http://www.dtelepathy.com/blog/inspiration/beautiful-color-palettes-for-your-next-web-project"*/
-/*the dark blue is #324154*/
-/*the teal is #29aba4*/
-/*the rose is #eb7260*/
-/*the fawn is #e9e0d6*/
-/*the cerulean is #3a9ad9*/
+.footer {
+  height: 75px;
+  width: 100%;
+  background-color: #9d9791;
+  position: absolute;
+  bottom: 0px;
+  margin: 0 auto;
+}
+/*fawn= #e9e0d6*/
+/*light grey= #9d9791*/
+/*dark grey= #464442*/
+/*blue= #3d718d*/
+/*teal = #29aba4*/
